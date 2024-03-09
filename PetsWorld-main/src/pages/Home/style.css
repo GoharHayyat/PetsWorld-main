@@ -1,0 +1,283 @@
+:root {
+  --primary: #015fc9;
+  --secondary: #0dd3f1;
+  --light: #f6f7fc;
+  --dark: #15233c;
+}
+
+.carousel-caption {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  text-align: start;
+  z-index: 1;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 15%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--primary);
+  border: 15px solid var(--primary);
+  border-radius: 50px;
+}
+
+@media (max-width: 768px) {
+  #header-carousel .carousel-item {
+    position: relative;
+    min-height: 400px;
+  }
+
+  #header-carousel .carousel-item img {
+    position: absolute;
+    width: 100%;
+    height: 1000%;
+    object-fit: cover;
+  }
+}
+
+.page-header {
+  /* background: url(../img/carousel-1.jpg) center center no-repeat; */
+  background-size: cover;
+}
+
+.page-header .breadcrumb-item,
+.page-header .breadcrumb-item a {
+  font-weight: 500;
+}
+
+.page-header .breadcrumb-item a,
+.page-header .breadcrumb-item + .breadcrumb-item::before {
+  color: #696e77;
+}
+
+.page-header .breadcrumb-item a:hover,
+.page-header .breadcrumb-item.active {
+  color: var(--primary);
+}
+
+.container.facts {
+  max-width: 100%;
+}
+
+.container.facts .facts-text,
+.container.facts .facts-counter {
+  padding: 0.75rem;
+}
+
+.container.facts .facts-text {
+  /* background: linear-gradient(rgba(1, 95, 201, 0.9), rgba(1, 95, 201, 0.9)), */
+  /* url(../img/carousel-1.jpg) center right no-repeat; */
+  background-size: cover;
+}
+
+.container.facts .facts-counter {
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.9)
+  );
+  /* url(../img/carousel-2.jpg) center right no-repeat; */
+  /* background-size: cover; */
+}
+
+.container.facts .facts-text .h-100,
+.container.facts .facts-counter .h-100 {
+  padding: 6rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 992px) {
+  .container.facts .facts-text,
+  .container.facts .facts-counter {
+    padding-left: calc(((100vw - 960px) / 2) + 0.75rem);
+    padding-right: calc(((100vw - 960px) / 2) + 0.75rem);
+  }
+}
+
+@media (min-width: 1200px) {
+  .container.facts .facts-text,
+  .container.facts .facts-counter {
+    padding-left: calc(((100vw - 1140px) / 2) + 0.75rem);
+    padding-right: calc(((100vw - 1140px) / 2) + 0.75rem);
+  }
+}
+
+@media (min-width: 1400px) {
+  .container.facts .facts-text,
+  .container.facts .facts-counter {
+    padding-left: calc(((100vw - 1320px) / 2) + 0.75rem);
+    padding-right: calc(((100vw - 1320px) / 2) + 0.75rem);
+  }
+}
+@media (max-width: 767px) {
+  .img_shop_combine {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.img_shop_combine {
+  width: 11%;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.img_shop_combine img {
+  width: 100%;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: 8px;
+  box-shadow: rgb(0 0 0 / 25%) 0px 4px 4px -1px;
+}
+
+.img_shop_combine h5 {
+  margin: 0;
+  padding-bottom: 0;
+}
+
+.img_shop_combine p {
+  font-size: 18px;
+  color: gray;
+}
+
+@media (max-width: 767px) {
+  /* Styles for mobile screens */
+  .img_shop_combine {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  .img_shop_combine img {
+    height: auto;
+  }
+}
+
+.card_friendly {
+  width: 16%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.card_friendly img {
+  width: 100%;
+  border-radius: 30px;
+  height: 13vw;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.card_friendly h5 {
+  margin: 0;
+  padding-bottom: 0;
+  font-size: 22px;
+}
+
+.card_friendly p {
+  font-size: 18px;
+}
+
+@media (max-width: 767px) {
+  .card_friendly {
+    width: 34%;
+    margin-bottom: 20px;
+  }
+
+  .card_friendly img {
+    height: auto;
+  }
+}
+
+/* ////////////////////////////////////////////for insurance */
+
+.insurance_plans {
+  margin-bottom: 50px;
+}
+
+.insurance_plans h1 {
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+
+.insurance_plans .main_heading_below {
+  text-align: center;
+}
+
+.insurance_plans .row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px 0 0 0;
+}
+
+.insurance_plans .plan_card {
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #d8dada;
+  padding: 32px 24px;
+}
+
+.insurance_plans .plan_card img {
+  width: 100%;
+  height: auto;
+  max-width: 300px; /* Adjust the maximum width as needed */
+  max-height: 200px; /* Adjust the maximum height as needed */
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.insurance_plans .plan_card h3 {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.insurance_plans .plan_card p {
+  text-align: center;
+  color: #262828;
+  font-size: 18px;
+  margin-bottom: 6px;
+  margin-top: 13px;
+}
+
+.insurance_plans .plan_card p.price {
+  font-size: 19px;
+  margin-bottom: 6px;
+}
+
+.insurance_plans .plan_card button {
+  width: 100%;
+  height: 50px;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: #b05fd7;
+  color: white;
+  margin-top: 8px;
+}
+
+.insurance_plans .plan_card .learn_more {
+  width: 100%;
+  text-align: center;
+  margin-top: 21px;
+  color: gray;
+}
+
+.insurance_plans .plan_card .learn_more a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ?????????????????????????????? contact us? */

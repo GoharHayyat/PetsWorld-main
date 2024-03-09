@@ -1,0 +1,50 @@
+.admin-panel-container {
+    background-color: #f5f5f5;
+    height: 100vh;
+    display: flex;
+  }
+  
+  .admin-panel-sidebar {
+    background-color: #6b52ae;
+    height: 100%;
+  }
+  
+  .admin-panel-sidebar .MuiTabs-root {
+    height: 100%;
+  }
+  
+  .admin-panel-sidebar .MuiTabs-flexContainer {
+    flex-direction: column;
+  }
+  
+  .admin-panel-sidebar .MuiTab-root {
+    color: #ffffff;
+  }
+  
+  .admin-panel-section {
+    margin-top: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 20px;
+  }
+  
+  .admin-panel-section h2 {
+    color: #6b52ae;
+  }
+  
+  .admin-panel-container .MuiBox-root {
+    height: 100%;
+  }
+  
+  .admin-panel-container .MuiBox-root > div {
+    height: 100%;
+  }
+  
+  @media (max-width: 600px) {
+    .admin-panel-container {
+      height: auto;
+      padding-bottom: 20px;
+    }
+  }
+  
+  

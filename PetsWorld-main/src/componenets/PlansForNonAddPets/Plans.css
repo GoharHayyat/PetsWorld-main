@@ -1,0 +1,108 @@
+.title {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  .weight-selection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* height: 100vh; */
+  }
+  .plans-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .plan-card {
+    margin: 10px;
+    padding: 20px;
+    background-color: #f6f6f6;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .plan-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .plan-card h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #151515;
+  }
+  
+  .blinker {
+    font-family: "Arial", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #773d9d;
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  
+    50.01% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  .plan-card p {
+    color: #8f7c7c;
+  }
+  
+  .plan-card .select-plan-button {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #7b4587;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .plan-card .select-plan-button:hover {
+    background-color: #8955a7;
+  }
+  
+  .buttons {
+    background-color: #773d9d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .buttonAdd{
+    position: absolute;
+    top: 114%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color : #7b4587;
+    
+  }
+
+  .middle{
+    align-content: center;
+  }

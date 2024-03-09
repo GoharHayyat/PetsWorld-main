@@ -1,0 +1,80 @@
+.specialties {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.dropdown-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+.dropdown-menu {
+  width: 300px;
+}
+
+.specialties button {
+  margin-right: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 17px;
+  background-color: purple;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  width: 25%;
+  box-sizing: border-box;
+}
+
+.specialties button:hover {
+  background-color: purple;
+}
+
+h2 {
+  margin-top: 15px;
+  font-size: 33px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+.doctor-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 30px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.doctor-card {
+  background-color: #fff;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.doctor-card h2 {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #531e67;
+}
+
+.doctor-card p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.doctor-card span {
+  font-weight: bold;
+}
+
+.custom-select .MuiList-root {
+  flex-direction: column;
+}

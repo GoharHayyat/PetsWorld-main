@@ -1,0 +1,144 @@
+#floatingInput {
+  border: 0;
+  border-bottom: 1px solid #bbb;
+  border-radius: 0;
+}
+
+.forgot-password-button {
+  border: 2px solid #9932e4;
+  border-radius: 10px;
+  height: 35px;
+  width: 160px;
+  background: #9932e4;
+  color: white;
+  font-size: 18px;
+}
+
+.forgot-password-button:hover {
+  background: white;
+  color: #9932e4;
+}
+
+.save-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.save-button-btn {
+  border: 2px solid #9932e4;
+  border-radius: 10px;
+  height: 35px;
+  width: 110px;
+  background: white;
+  color: #9932e4;
+  font-size: 18px;
+}
+
+.save-button-btn:hover {
+  background: #9932e4;
+  color: white;
+}
+
+/* //////////////////////////////// */
+
+#div_block-60-53 {
+  width: 30%;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: white;
+  border-right-color: white;
+  border-bottom-color: white;
+  border-left-color: white;
+}
+
+.flight-iconblock-4-column:not(.ct-section):not(.oxy-easy-posts),
+.flight-iconblock-4-column.oxy-easy-posts .oxy-posts,
+.flight-iconblock-4-column.ct-section .ct-section-inner-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.flight-iconblock-4-column {
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-color: #ffffff;
+  border-right-color: #ffffff;
+  border-bottom-color: #ffffff;
+  border-left-color: #ffffff;
+  padding-top: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+  background-color: #f4f4f4;
+  border-radius: 25px;
+  border-top-left-radius: 20px;
+  margin-bottom: 13px;
+}
+.ct-div-block {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.flight-iconblock-4-text {
+  font-family: "Montserrat";
+  color: #8c4a3b;
+  font-size: 15.5px;
+  font-weight: 400;
+}
+
+.elementstylecss {
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  /* .elementstylecss {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+  } */
+
+  .elementstylecss {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .elementstylecss > * {
+    flex: 0 0 50%;
+    /* Adjust the width percentage as needed */
+  }
+
+  #div_block-60-53 {
+    width: 50%;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: white;
+    border-right-color: white;
+    border-bottom-color: white;
+    border-left-color: white;
+  }
+}

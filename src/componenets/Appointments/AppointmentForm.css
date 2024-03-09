@@ -1,0 +1,276 @@
+#section-34-144 {
+  text-align: center;
+  background-color: #25b8d9;
+  background-position: 0% 50%;
+}
+
+.ct-section {
+  width: 100%;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+/* @media (max-width: 991px) .ct-section-inner-wrap {
+  padding-bottom: 37px;
+} */
+
+#section-34-144 > .ct-section-inner-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ct-section > .ct-section-inner-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.ct-section-inner-wrap {
+  padding-top: 75px;
+  padding-right: 20px;
+  padding-bottom: 75px;
+  padding-left: 20px;
+}
+.ct-section-inner-wrap,
+.oxy-header-container {
+  max-width: 1120px;
+}
+.ct-section-inner-wrap {
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+
+#section-34-144 > .ct-section-inner-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#section-34-144 {
+  text-align: center;
+  background-color: #25b8d9;
+  background-position: 0% 50%;
+}
+
+#section-25-144 > .ct-section-inner-wrap {
+  padding-top: 41px;
+}
+
+@media (max-width: 991px) {
+  #section-34-144 > .ct-section-inner-wrap {
+    padding-bottom: 37px;
+  }
+}
+
+#div_block-52-144 {
+  width: 100%;
+}
+
+#div_block-58-144 {
+  width: 100%;
+}
+
+#div_block-27-144 {
+  background-image: linear-gradient(
+      rgba(79, 44, 115, 0.95),
+      rgba(79, 44, 115, 0.95)
+    ),
+    url(https://chubbymeows.com/wp-content/uploads/2021/08/Vet-appointment-image-bg.png);
+  background-size: auto, auto;
+  width: 65%;
+  background-color: #4f2c73;
+  align-items: center;
+  text-align: center;
+}
+
+#div_block-28-144 {
+  width: 50%;
+  align-items: center;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  #new_columns-26-144 > .ct-div-block {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 991px) {
+  #new_columns-26-144 {
+    flex-direction: column-reverse;
+  }
+}
+
+#headline-35-144 {
+  margin-bottom: 12px;
+  color: #ffffff;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#headline-37-144 {
+  font-size: 32px;
+  margin-bottom: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+#headline-30-144 {
+  font-size: 22px;
+  margin-bottom: 22px;
+  color: #25b8d9;
+}
+
+@media (max-width: 991px) {
+  #headline-35-144 {
+    font-size: 61px;
+  }
+}
+
+@media (max-width: 479px) {
+  #headline-35-144 {
+    font-size: 32px;
+  }
+}
+
+#text_block-36-144 {
+  color: rgba(255, 255, 255, 0.9);
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  min-width: 70%;
+  margin-top: 10px;
+}
+
+@media (max-width: 991px) {
+  #text_block-36-144 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 479px) {
+  #text_block-36-144 {
+    font-size: 16px;
+  }
+}
+
+#fancy_icon-41-144 {
+  border: 1px solid;
+  padding: 20px;
+  color: #25b8d9;
+}
+
+#fancy_icon-41-144 {
+  background-color: #4f2c73;
+}
+
+#fancy_icon-49-144 {
+  border: 1px solid;
+  padding: 20px;
+  color: #25b8d9;
+}
+
+#fancy_icon-49-144 {
+  background-color: #4f2c73;
+}
+
+#fancy_icon-51-144 {
+  border: 1px solid;
+  padding: 20px;
+  color: #25b8d9;
+}
+
+#fancy_icon-51-144 {
+  background-color: #4f2c73;
+}
+
+#shortcode-29-144 {
+  padding-right: 0px;
+}
+
+#_icon_box-40-144 .oxy-icon-box-heading {
+  color: #ffffff;
+}
+
+#_icon_box-40-144 .oxy-icon-box-text {
+  color: #ffffff;
+}
+
+#_icon_box-48-144 .oxy-icon-box-heading {
+  color: #ffffff;
+}
+
+#_icon_box-48-144 .oxy-icon-box-text {
+  color: #ffffff;
+}
+
+#_icon_box-48-144 {
+  margin-top: 4px;
+}
+
+#_icon_box-50-144 .oxy-icon-box-heading {
+  color: #ffffff;
+}
+
+#_icon_box-50-144 .oxy-icon-box-text {
+  color: #ffffff;
+}
+
+#_icon_box-50-144 {
+  margin-top: 4px;
+}
+/* ////////////////////////////////// */
+
+.ct-new-columns_new {
+  display: flex;
+  /* width: 100%; */
+  /* width: 70%; */
+  /* flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap; */
+  /* display: flex; */
+  width: 100%;
+  /* width: 70%; */
+  flex-direction: row;
+  align-items: stretch;
+  flex-wrap: nowrap;
+}
+
+#link_text-9-53 {
+  font-size: 16px;
+  margin-bottom: 21px;
+}
+
+.cm-primary-btn-01 {
+  font-family: "Montserrat";
+  font-size: 16px;
+  margin-bottom: 21px;
+}
+.saas-primary-button {
+  font-family: Open Sans;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.1;
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 48px;
+  padding-right: 48px;
+  border-radius: 100px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  transition-property: all;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  background-color: #4f2c73;
+}

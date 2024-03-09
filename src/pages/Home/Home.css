@@ -1,0 +1,60 @@
+.img_shop_combine:hover {
+  /* box-shadow: 0 4px 3px -2px rgb(0 0 0 / 25%); */
+  /* box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%); */
+  border: 2px solid white;
+}
+
+.md_questions:hover {
+  color: rgb(168 80 212);
+}
+
+.insurance_style_none {
+  list-style: none !important;
+  padding-left: 10px;
+  font-weight: 100;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.insurance_style_none li:before {
+  content: "✓ " !important;
+}
+
+.hover-underline-animation:hover {
+  cursor: pointer;
+  color: #b05fd7 !important;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-underline-animation::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #b05fd7;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.withOutAnchorInherit {
+  color: inherit !important;
+  text-decoration: none;
+}
+
+.buttons_hover:hover {
+  /* padding: 24px !important; */
+  box-shadow: rgb(0 0 0 / 25%) 0px 4px 4px;
+  font-size: 16px;
+}
